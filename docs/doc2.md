@@ -1,6 +1,13 @@
 ---
 id: doc2
-title: Document Number 2
+title: Add custom models 
 ---
 
-This is a link to [another document.](doc3.md) This is a link to an [external page.](http://www.example.com/)
+Custom models can be added to your account
+
+We can create models for you or connect your model
+
+Existing models can be added as AMIs
+
+Follow these instructions to turn your model into an AMI 
+
