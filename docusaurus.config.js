@@ -1,16 +1,19 @@
 module.exports = {
   title: 'Zeptron help docs',
   tagline: 'A beautiful UI for any AI',
-  url: 'https://your-docusaurus-test-site.com',
+  url: 'https://zeptron.github.io', // Your website URL
+  baseUrl: '/',
+  projectName: 'zeptron.github.io',
+  organizationName: 'zeptron',
   baseUrl: '/',
   favicon: 'img/favicon.ico',
   organizationName: 'zeptron', // Usually your GitHub org/user name.
   projectName: 'docs', // Usually your repo name.
   themeConfig: {
     navbar: {
-      title: 'My Site',
+      title: 'Zeptron help docs',
       logo: {
-        alt: 'My Site Logo',
+        alt: 'Zeptron',
         src: 'img/logo.svg',
       },
       links: [
