@@ -3,7 +3,7 @@ id: doc4
 title: Use Zeptron live streamer
 ---
 
-## Basic usage
+## Usage for Mac, PC & Linux
 
 After installing Zeptron, use it to start and stop video streams from your terminal like this: 
 
