@@ -1,17 +1,23 @@
 module.exports = {
-  title: 'Zeptron Documentation',
-  tagline: 'Get started with Zeptron, a beautiful UI for any AI',
+  title: 'Zeptron Docs',
+  tagline: 'Get started with Zeptron, a model agnostic computer vision app',
   url: 'https://zeptron.github.io/', // Your website URL
   baseUrl: '/',
   projectName: 'zeptron.github.io',
   organizationName: 'zeptron',
   favicon: 'img/favicon.ico',
   themeConfig: {
+    algolia: {
+      apiKey: '760975dff9db2bd23f37006b10c5f8d3',
+      indexName: 'zeptron',
+      appId: '', // Optional, if you run the DocSearch crawler on your own
+      algoliaOptions: {}, // Optional, if provided by Algolia
+    },
     navbar: {
       title: 'Zeptron',
       logo: {
         alt: 'Zeptron',
-        src: 'img/logo.svg',
+        src: 'img/SquareLogo.png',
       },
       links: [
         {
@@ -20,7 +26,7 @@ module.exports = {
           label: 'Docs',
           position: 'left',
         },
-        {to: 'blog', label: 'Blog', position: 'left'},
+        // {to: 'blog', label: 'Blog', position: 'left'},
         {
           href: 'https://github.com/zeptron/',
           label: 'GitHub',
@@ -32,32 +38,32 @@ module.exports = {
       style: 'dark',
       links: [
         {
-          title: 'Docs',
+          title: 'Get Zeptron',
           items: [
             {
-              label: 'Style Guide',
-              to: 'docs/',
+              label: 'Sign up',
+              href: 'https://zeptron.co',
             },
             {
-              label: 'Second Doc',
-              to: 'docs/doc2/',
+              label: 'About',
+              href: 'https://zeptron.co',
+            },
+            {
+              label: 'Contact',
+              href: 'https://zeptron.co/contact',
             },
           ],
         },
         {
-          title: 'Community',
+          title: 'Docs',
           items: [
             {
-              label: 'Stack Overflow',
-              href: 'https://stackoverflow.com/questions/tagged/docusaurus',
+              label: 'Get Started',
+              to: 'docs/',
             },
             {
-              label: 'Discord',
-              href: 'https://discordapp.com/invite/docusaurus',
-            },
-            {
-              label: 'Twitter',
-              href: 'https://twitter.com/docusaurus',
+              label: 'Install Streamer',
+              to: 'docs/doc3/',
             },
           ],
         },
@@ -70,12 +76,12 @@ module.exports = {
             },
             {
               label: 'GitHub',
-              href: 'https://github.com/facebook/docusaurus',
+              href: 'https://github.com/zeptron',
             },
           ],
         },
       ],
-      copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
+      copyright: `Copyright © ${new Date().getFullYear()} Zeptron`,
     },
   },
   presets: [

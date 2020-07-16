@@ -3,11 +3,9 @@ id: doc2
 title: Add custom models 
 ---
 
-Custom models can be added to your account
+We can easily add custom models to your account. 
 
-We can create models for you or connect your model
+Either send us the weights or share an AMI image with us and we can have it in your library in under 20 minutes
 
-Existing models can be added as AMIs
-
-Follow these instructions to turn your model into an AMI 
+[Contact](https://www.zeptron.co/contact) us to add a model
 
