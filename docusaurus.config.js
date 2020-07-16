@@ -1,12 +1,22 @@
 module.exports = {
   title: 'Zeptron Docs',
+<<<<<<< HEAD
   tagline: 'Get started with Zeptron, a beautiful UI for any AI',
+=======
+  tagline: 'Get started with Zeptron, a model agnostic computer vision app',
+>>>>>>> master
   url: 'https://zeptron.github.io/', // Your website URL
   baseUrl: '/',
   projectName: 'zeptron.github.io',
   organizationName: 'zeptron',
   favicon: 'img/apple-touch-icon.png',
   themeConfig: {
+    algolia: {
+      apiKey: '760975dff9db2bd23f37006b10c5f8d3',
+      indexName: 'zeptron',
+      appId: '', // Optional, if you run the DocSearch crawler on your own
+      algoliaOptions: {}, // Optional, if provided by Algolia
+    },
     navbar: {
       title: 'Zeptron',
       logo: {
@@ -32,6 +42,7 @@ module.exports = {
       style: 'dark',
       links: [
         {
+<<<<<<< HEAD
           title: 'Zeptron',
           items: [
             {
@@ -45,10 +56,26 @@ module.exports = {
             {
               label: 'About',
               href: 'https://www.zeptron.co/about',
+=======
+          title: 'Get Zeptron',
+          items: [
+            {
+              label: 'Sign up',
+              href: 'https://zeptron.co',
+            },
+            {
+              label: 'About',
+              href: 'https://zeptron.co',
+            },
+            {
+              label: 'Contact',
+              href: 'https://zeptron.co/contact',
+>>>>>>> master
             },
           ],
         },
         {
+<<<<<<< HEAD
           title: 'Help',
           items: [
             {
@@ -59,15 +86,37 @@ module.exports = {
               label: 'Contact',
               href: 'https://www.zeptron.co/contact'
             }
+=======
+          title: 'Docs',
+          items: [
+            {
+              label: 'Get Started',
+              to: 'docs/',
+            },
+            {
+              label: 'Install Streamer',
+              to: 'docs/doc3/',
+            },
+>>>>>>> master
           ],
         },
         {
           title: 'Shop',
           items: [
             {
+<<<<<<< HEAD
               label: 'Streaming',
               href: 'https://www.zeptron.co/streaming'
             }
+=======
+              label: 'Blog',
+              to: 'blog',
+            },
+            {
+              label: 'GitHub',
+              href: 'https://github.com/zeptron',
+            },
+>>>>>>> master
           ],
         },
       ],

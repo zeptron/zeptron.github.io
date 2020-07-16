@@ -12,8 +12,12 @@ const features = [
     imageUrl: 'img/undraw_docusaurus_mountain.svg',
     description: (
       <>
+<<<<<<< HEAD
        Zeptron was designed to allow anyone to use AI through a friendly user interface without  needing to code
 
+=======
+        Zeptron was designed to allow anyone to use AI through a friendly user interface without  needing to code
+>>>>>>> master
       </>
     ),
   },
@@ -22,7 +26,11 @@ const features = [
     imageUrl: 'img/undraw_docusaurus_tree.svg',
     description: (
       <>
+<<<<<<< HEAD
       Our streaming module gives you access to free unlimited live streaming from Mac, PC or Linux. Start and stop streams in one command.
+=======
+        Our streaming module gives you access to free unlimited live streaming from Mac, PC or Linux. Start and stop streams in one command.
+>>>>>>> master
       </>
     ),
   },
@@ -57,8 +65,8 @@ function Home() {
   const {siteConfig = {}} = context;
   return (
     <Layout
-      title={`Hello from ${siteConfig.title}`}
-      description="Description will go into a meta tag in <head />">
+      title={`Help Docs for ${siteConfig.title}`}
+      description="Get started with Zeptron, computer vision for a better today">
       <header className={clsx('hero hero--primary', styles.heroBanner)}>
         <div className="container">
           <h1 className="hero__title">{siteConfig.title}</h1>
